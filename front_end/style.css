@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: Cambria, Arial;
+}
+
+section {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    font-family: Arial;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid cornflowerblue;
+}
+
+form input:focus {
+    background-color: wheat;
+}
+
+form input[type=submit]{
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    width: 350px;
+}
+
+form label {
+    margin-left: 10px;
+}

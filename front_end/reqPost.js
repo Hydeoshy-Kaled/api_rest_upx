@@ -2,7 +2,6 @@
 
 // Obtendo os valores dos campos do form
 
-
 function enviarFomulario(event) {
     event.preventDefault();
     
